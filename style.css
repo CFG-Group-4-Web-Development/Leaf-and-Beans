@@ -1,11 +1,13 @@
-body {
+body{
   background-color: #f4e285;
 }
-
 .header {
   text-align: center;
   padding-bottom: 30px;
   color: #8cb369;
+}
+.header img{
+  max-width:150px;
 }
 
 .topnav {
@@ -37,7 +39,8 @@ body {
 
 h2 {
   text-align: center;
-  color: #8cb369;
+  color: #5B8E7D;
+  margin-top: 15%;
 }
 
 .content {
@@ -68,6 +71,7 @@ footer {
   background-color: #8cb369;
   color: #bc4b51;
   padding: 5px;
+  margin-top: 20px;
 }
 
 .column {
@@ -142,3 +146,52 @@ li {
   padding: 40px; border-radius: 5px; 
 }
 
+.Menu{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  border-color: #5B8E7D;
+  /* border-style: dashed; */
+  padding: 2em;
+}
+article{
+display: flex;
+justify-content: space-between;
+align-items:baseline;
+}
+.left{
+  font-weight: 600;
+}
+article p{
+  font-size: 1.25em;
+  margin-bottom: 0;
+}
+.ingredients{
+ margin-top: 0%;
+ color: #8cb369;
+ text-align: left;
+}
+main :nth-child(3) h2{
+  color: #5B8E7D;
+  margin-top: 1.5em;
+}
+main :nth-child(3) .ingredients{
+  color: #5B8E7D;
+}
+main :nth-child(4) h2{
+  color: #8cb369;
+}
+main :nth-child(4) .ingredients{
+  color: #8cb369;
+}
+main :nth-child(5) h2{
+  color: #f4a259;
+}
+section h2{
+  font-size: 2.5em;
+}
+main h1{
+  font-style:italic;
+  font: 3em;
+  margin-bottom: 0%;
+}
