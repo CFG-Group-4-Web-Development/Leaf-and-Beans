@@ -1,226 +1,96 @@
-body {
-  background-color: #ffffff;
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaf&Bean</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  </head>
+  <body>   
 
-body,
-html {
-  height: 100%;
-  margin: 0;
-}
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#team">Meet the team</a>
+      <a href="#contacts">Contacts</a>
+       </div>
 
-.topnav {
-  overflow: hidden;
-  background-color: #618e7d;
-  text-align: center;
-  padding: 14px;
-}
+       <div class="imagecontainer">
+  <img src="img/three-friends-sitting-bar.jpg" alt="friends in a cafe" style="width:100%;">  
+  <div class="centered">Leaf & Bean</div>
+</div>
 
-.topnav a {
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-  font: "Lora";
-  font-size: 20px;
-}
+    
+    <div class="content">    
+    <h3>Welcome to Leaf & Bean, where plant-based passion meets culinary creativity! </h3>
+      
+      <p>Established in 2019, Leaf & Bean is a cozy vegan cafe nestled in the heart of our bustling city. Our mission is simple: to provide a delightful haven for food enthusiasts seeking flavorful, nourishing dishes crafted with love and care.
 
-.topnav a:hover {
-  background-color: #f2e07f;
-  transition: 0.3s;
-}
+<p>At Leaf & Bean, we're proud to offer a diverse menu that caters to every palate and preference. From wholesome breakfast options like Black beans & avocado on toast and Cardamom & peach quinoa porridge to hearty lunch favorites such as Ponzu tofu poke bowl and Chickpea curry jacket potatoes, our menu is a celebration of the rich and vibrant flavors of plant-based cuisine. Indulge your sweet tooth with our tempting array of cakes, including Brownie, Lemon cheesecake, Carrot cake, and Apple pie. Whether you're a committed vegan, a curious foodie, or simply looking to explore the delicious world of plant-based dining, Leaf & Bean welcomes you to embark on a culinary journey that's as satisfying as it is sustainable. </p>
 
-.topnav a.active {
-  background-color: #f2e07f;
-  color: #618e7d;
-}
+<br>
 
-/* Container holding the image and the text */
-.imagecontainer {
-  position: relative;
-  text-align: center;
-  color: white;
-}
 
-.imagecontainer::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-}
+    </div>
 
-/* Centered text */
-.centered {
-  font: "Lora";
-  font-size: 80px;
-  font-weight: 600;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+<div class="responsive">
+  <div class="gallery">
+    <img src="img/gallery/cappuccino-coffee-white-cup.jpg" alt="cappuccino">    
+    </div>
+  </div>
 
-.content {
-  color: black;
-  text-align: center;
-  width: 60%;
-  margin: auto;
-  font: "Lora";
-  font-size: 17px;
-  padding-top: 10px;
-}
+  <div class="responsive">
+  <div class="gallery">
+    <img src="img/gallery/quinoa-mushrooms-lettuce-red-cabbage-spinach-cucumbers-tomatoes-buddha-bowl.jpg" alt="quinoa salad">    
+    </div>
+</div>
 
-div.gallery img {
-  width: 100%;
-  height: auto;
-  padding: 30px 0px 30px 0px;
-}
+ <div class="responsive">
+  <div class="gallery">
+    <img src="img/gallery/fresh-cappuccino-with-sweet-delight.jpg" alt="cappuccino and sweet">    
+    </div>
+</div>
 
-* {
-  box-sizing: border-box;
-}
-.responsive {
-  padding: 0 0px;
-  float: left;
-  width: 24.99999%;
-}
 
-footer {
-  display: flex;
-  justify-content: space-around;
-  background-color: #618e7d;
-  color: #ffffff;
-  padding: 5px;
-  margin-top: 20px;
-}
+  <div class="responsive">
+  <div class="gallery">
+    <img src="img/gallery/healthy-food-composition-with-colorful-salad.jpg" alt="salad">    
+    </div>
+</div>
 
-.column {
-  width: 22%;
-  text-align: center;
-}
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
+<footer>
+  <div class="column">
+    <h3>Leaf & Bean</h3>
+    <ul>
+      <li>About us</li>
+      <li>Vacancies</li>
+      <li>Contact us</li>
+    </ul>
+  </div>
 
-li {
-  margin-bottom: 2px;
-}
+  <div class="column">
+    <h3>Come visit us</h3>
+    <ul>      
+      <li>Irenestraat 68</li>
+      <li>Amsterdam</li>
+      <li>06-86581769</li>
+      
+    </ul>
+  </div>
 
-/* Four columns side by side */
-.team-column {
-  float: left;
-  width: 25%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
+  <div class="column">
+    <h3>Opening times</h3>
+    <ul>
+      <li>Mon: Closed</li>
+      <li>Tue - Sat 10:00 - 21:00</li>
+      <li>Sun: 10:00 - 18:00</li>
+    </ul>
+  </div>
+  
+  </footer>
 
-/* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
-  .team-column {
-    width: 100%;
-    display: block;
-  }
-}
-
-/* Add some shadows to create a card effect */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-/* Some left and right padding inside the container */
-.container {
-  padding: 0 16px;
-}
-
-/* Clear floats */
-.container::after,
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
-}
-
-.team-para {
-  margin: 0;
-  padding: 40px;
-  border-radius: 5px;
-}
-
-.Menu {
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  border-color: #5b8e7d;
-  /* border-style: dashed; */
-  padding: 2em;
-}
-article {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-}
-.left {
-  font-weight: 600;
-}
-article p {
-  font-size: 1.25em;
-  margin-bottom: 0;
-}
-.ingredients {
-  margin-top: 0%;
-  color: #8cb369;
-  text-align: left;
-}
-main :nth-child(3) h2 {
-  color: #5b8e7d;
-  margin-top: 1.5em;
-}
-main :nth-child(3) .ingredients {
-  color: #5b8e7d;
-}
-main :nth-child(4) h2 {
-  color: #8cb369;
-}
-main :nth-child(4) .ingredients {
-  color: #8cb369;
-}
-main :nth-child(5) h2 {
-  color: #f4a259;
-}
-section h2 {
-  font-size: 2.5em;
-}
-main h1 {
-  font-style: italic;
-  font: 3em;
-  margin-bottom: 0%;
-}
-
-#map {
-  width: 100%;
-  height: 500px;
-}
+ </html>
