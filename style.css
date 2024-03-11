@@ -1,5 +1,5 @@
 body{
-  background-color: #f4e285;
+  background-color: #ffffff;
 }
 
 body,
@@ -10,7 +10,7 @@ html {
 .header {
   text-align: center;
   padding-bottom: 30px;
-  color: #8cb369;
+  color: #618e7d;
 }
 .header img{
   max-width:150px;
@@ -18,39 +18,39 @@ html {
 
 .topnav {
   overflow: hidden;
-  background-color: #8cb369;
+  background-color: #618e7d;
   text-align: center;
   padding: 10px;
   margin-bottom: 20px;
-  box-shadow: 1px 1px 2px #f4a259;
+  box-shadow: 1px 1px 2px #f2e07f;
 }
 
 .topnav a {
-  color: #bc4b51;
+  color: #f2e07f;
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
   font-size: 17px;
-  border-right: 1px solid #f4e285;
+  border-right: 1px solid #f2e07f;
 }
 
 .topnav a:hover {
-  background-color: #f4e285;
+  background-color: #f2e07f;
   transition: 0.3s;
 }
 
 .topnav a.active {
-  background-color: #f4a259;
+  background-color: #f2e07f;
 }
 
 h2 {
   text-align: center;
-  color: #5B8E7D;
+  color: #ffffff;
   margin-top: 15%;
 }
 
 .content {
-  color: #bc4b51;
+  color: #ffffff;
   text-align: center;
   width: 70%;
   margin: auto;
@@ -74,8 +74,8 @@ div.gallery img {
 footer {
   display: flex;
   justify-content: space-around;
-  background-color: #8cb369;
-  color: #bc4b51;
+  background-color: #618e7d;
+  color: #ffffff;
   padding: 5px;
   margin-top: 20px;
 }
