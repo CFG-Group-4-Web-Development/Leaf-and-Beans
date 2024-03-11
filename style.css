@@ -41,7 +41,7 @@ html {
 
 .topnav a.active {
   background-color: #f2e07f;
-}
+  color:#618e7d;
 
 h2 {
   text-align: center;
