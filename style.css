@@ -2,8 +2,9 @@ body {
   background-color: #ffffff;
   margin: 0;
   height: 100%;
+  line-height: initial;
+  font-family: montserrat;
 }
-
 .topnav {
   overflow: hidden;
   background-color: #5B8E7D;
@@ -49,7 +50,7 @@ body {
 
 /* Centered text */
 .centered {
-  /* font: "Lora"; */
+  font-family: Lora;
   font-size: 80px;
   font-weight: 600;
   position: absolute;
@@ -94,7 +95,7 @@ footer {
 
 .column {
   width: 22%;
-  text-align: center;
+  text-align: left;
 }
 
 ul {
@@ -154,8 +155,9 @@ li {
   text-align: center;
   cursor: pointer;
   width: 100%;
+  font-family: montserrat;
+  border-radius: 0.5em;
 }
-
 .button:hover {
   background-color: #F4A259;
 }
@@ -207,10 +209,16 @@ main :nth-child(4) .ingredients {
 main :nth-child(5) h2 {
   color: #f4a259;
 }
+.underlined{
+  border-bottom-style: solid;
+    border-bottom-color:#8cb369;
+    padding-bottom: 15px;
+}
 section h2 {
   font-size: 2.5em;
 }
 main h1 {
+  font-family: Lora;
   font-style: italic;
   font: 3em;
   margin-bottom: 0%;
@@ -240,4 +248,7 @@ a{
 }
 h5{
   margin-top: 4em;
+}
+h3{
+  font-size: initial
 }
