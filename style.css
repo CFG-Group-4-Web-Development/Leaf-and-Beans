@@ -1,59 +1,72 @@
-body{
-  background-color: #f4e285;
-}
-
-body,
-html {
+body {
+  background-color: #ffffff;
+  margin: 0;
   height: 100%;
+  line-height: initial;
+  font-family: montserrat;
 }
-
-.header {
-  text-align: center;
-  padding-bottom: 30px;
-  color: #8cb369;
-}
-.header img{
-  max-width:150px;
-}
-
 .topnav {
   overflow: hidden;
-  background-color: #8cb369;
+  background-color: #5B8E7D;
   text-align: center;
-  padding: 10px;
-  margin-bottom: 20px;
-  box-shadow: 1px 1px 2px #f4a259;
+  padding: 14px;
 }
 
 .topnav a {
-  color: #bc4b51;
+  color: #ffffff;
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
-  font-size: 17px;
-  border-right: 1px solid #f4e285;
+  font: "Lora";
+  font-size: 20px;
 }
 
 .topnav a:hover {
-  background-color: #f4e285;
+  background-color: #F4E285;
   transition: 0.3s;
 }
 
 .topnav a.active {
-  background-color: #f4a259;
+  background-color: #F4E285;
+  color: #5B8E7D;
 }
 
-h2 {
+/* Container holding the image and the text */
+.imagecontainer {
+  position: relative;
   text-align: center;
-  color: #5B8E7D;
-  margin-top: 15%;
+  color: white;
+}
+
+.imagecontainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Centered text */
+.centered {
+  font-family: Lora;
+  font-size: 80px;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .content {
-  color: #bc4b51;
+  color: black;
   text-align: center;
-  width: 70%;
+  width: 60%;
   margin: auto;
+  /* font: "Lora"; */
+  font-size: 17px;
+  padding-top: 10px;
 }
 
 div.gallery img {
@@ -66,7 +79,7 @@ div.gallery img {
   box-sizing: border-box;
 }
 .responsive {
-  padding: 0 6px;
+  padding: 0 0px;
   float: left;
   width: 24.99999%;
 }
@@ -74,14 +87,17 @@ div.gallery img {
 footer {
   display: flex;
   justify-content: space-around;
-  background-color: #8cb369;
-  color: #bc4b51;
+  background-color: #5B8E7D;
+  color: #ffffff;
   padding: 5px;
   margin-top: 20px;
 }
 
 .column {
   width: 22%;
+  text-align: left;
+}
+.img{
   text-align: center;
 }
 
@@ -121,7 +137,8 @@ li {
 }
 
 /* Clear floats */
-.container::after, .row::after {
+.container::after,
+.row::after {
   content: "";
   clear: both;
   display: table;
@@ -137,67 +154,75 @@ li {
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #000;
+  background-color: #BC4B51;
   text-align: center;
   cursor: pointer;
   width: 100%;
+  font-family: montserrat;
+  border-radius: 0.5em;
 }
-
 .button:hover {
-  background-color: #555;
+  background-color: #F4A259;
 }
 
 .team-para {
-  margin: 0; 
-  padding: 40px; border-radius: 5px; 
+  margin: 0;
+  padding: 40px;
+  border-radius: 5px;
 }
 
-.Menu{
+.Menu {
   width: 80%;
   margin: auto;
   text-align: center;
-  border-color: #5B8E7D;
+  border-color: #5b8e7d;
   /* border-style: dashed; */
   padding: 2em;
 }
-article{
-display: flex;
-justify-content: space-between;
-align-items:baseline;
+article {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
-.left{
+.left {
   font-weight: 600;
 }
-article p{
+article p {
   font-size: 1.25em;
   margin-bottom: 0;
 }
-.ingredients{
- margin-top: 0%;
- color: #8cb369;
- text-align: left;
+.ingredients {
+  margin-top: 0%;
+  color: #8cb369;
+  text-align: left;
 }
-main :nth-child(3) h2{
-  color: #5B8E7D;
+main :nth-child(3) h2 {
+  color: #5b8e7d;
   margin-top: 1.5em;
 }
-main :nth-child(3) .ingredients{
-  color: #5B8E7D;
+main :nth-child(3) .ingredients {
+  color: #5b8e7d;
 }
-main :nth-child(4) h2{
+main :nth-child(4) h2 {
   color: #8cb369;
 }
-main :nth-child(4) .ingredients{
+main :nth-child(4) .ingredients {
   color: #8cb369;
 }
-main :nth-child(5) h2{
+main :nth-child(5) h2 {
   color: #f4a259;
 }
-section h2{
+.underlined{
+  border-bottom-style: solid;
+    border-bottom-color:#8cb369;
+    padding-bottom: 15px;
+}
+section h2 {
   font-size: 2.5em;
 }
-main h1{
-  font-style:italic;
+main h1 {
+  font-family: Lora;
+  font-style: italic;
   font: 3em;
   margin-bottom: 0%;
 }
@@ -205,4 +230,33 @@ main h1{
 #map {
   width: 100%;
   height: 500px;
+}
+footer h3{
+  color: #F4E285;
+}
+.btn-primary {
+  background-color: #BC4B51;
+  border: none;
+}
+.btn-primary:hover{
+  background-color: #F4A259;
+}
+
+i{
+  color: #5B8E7D;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+h5{
+  margin-top: 4em;
+}
+h3{
+  font-size: initial;
+  margin: 16px 0;
+  font-weight: 500;
+}
+.column img{
+  max-width: 200px;
 }
