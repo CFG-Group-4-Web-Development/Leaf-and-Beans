@@ -97,6 +97,9 @@ footer {
   width: 22%;
   text-align: left;
 }
+.img{
+  text-align: center;
+}
 
 ul {
   list-style-type: none;
