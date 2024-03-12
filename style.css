@@ -1,16 +1,12 @@
 body {
   background-color: #ffffff;
-}
-
-body,
-html {
-  height: 100%;
   margin: 0;
+  height: 100%;
 }
 
 .topnav {
   overflow: hidden;
-  background-color: #618e7d;
+  background-color: #5B8E7D;
   text-align: center;
   padding: 14px;
 }
@@ -25,13 +21,13 @@ html {
 }
 
 .topnav a:hover {
-  background-color: #f2e07f;
+  background-color: #F4E285;
   transition: 0.3s;
 }
 
 .topnav a.active {
-  background-color: #f2e07f;
-  color: #618e7d;
+  background-color: #F4E285;
+  color: #5B8E7D;
 }
 
 /* Container holding the image and the text */
@@ -53,7 +49,7 @@ html {
 
 /* Centered text */
 .centered {
-  font: "Lora";
+  /* font: "Lora"; */
   font-size: 80px;
   font-weight: 600;
   position: absolute;
@@ -67,7 +63,7 @@ html {
   text-align: center;
   width: 60%;
   margin: auto;
-  font: "Lora";
+  /* font: "Lora"; */
   font-size: 17px;
   padding-top: 10px;
 }
@@ -90,7 +86,7 @@ div.gallery img {
 footer {
   display: flex;
   justify-content: space-around;
-  background-color: #618e7d;
+  background-color: #5B8E7D;
   color: #ffffff;
   padding: 5px;
   margin-top: 20px;
@@ -154,14 +150,14 @@ li {
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #000;
+  background-color: #BC4B51;
   text-align: center;
   cursor: pointer;
   width: 100%;
 }
 
 .button:hover {
-  background-color: #555;
+  background-color: #F4A259;
 }
 
 .team-para {
@@ -223,4 +219,25 @@ main h1 {
 #map {
   width: 100%;
   height: 500px;
+}
+footer h3{
+  color: #F4E285;
+}
+.btn-primary {
+  background-color: #BC4B51;
+  border: none;
+}
+.btn-primary:hover{
+  background-color: #F4A259;
+}
+
+i{
+  color: #5B8E7D;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+h5{
+  margin-top: 4em;
 }
